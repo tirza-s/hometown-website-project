@@ -49,6 +49,26 @@ a:hover {
     height: 100px;
 }
 
+.card {
+    background-color: #E0904B;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 500px;
+    margin-bottom: 45px;
+    width: 600px;
+    text-align: center;
+    padding: 20px 50px;
+}
+
+.guide-image {
+    border-radius: 350px;
+    padding-right: 10px;
+    width: 300px;
+}
+
 h2 {
     margin-top: 84px;
 }
@@ -61,6 +81,11 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+#footer {
+    color: #1794A1;
+    margin-top: 50px;
 }
 
 .some-content {
@@ -78,10 +103,13 @@ h2 {
     text-shadow: 2px 1px 6px #1794A1;
 }
 
-
 .bali-image,
 .borobudur-image,
 .papua-image {
     width: 175px;
     border-radius: 100px;
+}
+
+span {
+    font-size: 24px;
 }
