@@ -1,0 +1,64 @@
+/* font-family: "Cabin", sans-serif;
+    blue sky    : #9CD3E1
+    brown       : #87553A
+    teal        : #09666B
+    turquoise   : #1794A1
+    light brown : #E0904B
+*/
+
+body {
+    cursor: pointer;
+    font-family: "Cabin", sans-serif;
+    text-align: center;
+    margin: 0;
+
+}
+
+#header {
+    background-image: url("images/flores-island.jpeg");
+    background-size: cover;
+    height: 600px;
+    /* This is to arrange the position of the header so that it does not take up the entire space */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    background: #1793a194;
+    border-radius: 6px;
+    color: #E0904B;
+    font-size: 64px;
+    margin-top: 120px;
+    padding: 5px 18px;
+    text-shadow: 2px 1px 6px #1794A1;
+}
+
+
+
+#culture {
+    color: white;
+    background-color: #87553A;
+    border-radius: 3px;
+    margin-top: 5px;
+    padding: 7px 18px;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* This style is intended to ensure that the paragraph within the div does not take up more space than necessary */
+.container div {
+    width: 250px;
+    height: 100px;
+}
+
+.papua-image,
+.bali-image,
+.borobudur-image {
+    width: 175px;
+    border-radius: 100px;
+}
